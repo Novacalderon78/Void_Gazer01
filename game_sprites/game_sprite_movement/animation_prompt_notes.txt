@@ -1,0 +1,25 @@
+ANIMATION CREATION NOTES
+
+Method: built-in image_gen editing, one final animation atlas per original extracted sprite.
+These motion frames were newly created from the static sprites, not recovered from the source GIF.
+
+Shared prompt specification:
+Create a genuinely transparent RGBA animation atlas with exactly eight sequential frames in a 4-column by 2-row grid, read row-major. Preserve the reference character design, original colors, blue-gray outline, front view, proportions and pixel-art rendering. Keep a consistent scale and central anchor. Use crisp discrete pixels without smoothing. Keep all artwork inside the cells with transparent separation. Make a seamless loop. No grid lines, labels, text, watermark, checkerboard, scene, stars, shadow, or extra characters.
+
+UFO:
+Gentle level hovering, with a small vertical bob. Cycle the three yellow underside lights from left to right through yellow/gold brightness. Keep the red dome, four windows and saucer silhouette consistent.
+
+Red enemy:
+Keep the red central body, white eyes, tiny eyebrow-shaped mouth and appendage counts. Lift and lower the side arms in alternating phases; slightly open and close the curved lower pincers; sway the antenna tips subtly.
+
+Green enemy:
+Keep the green dome, two white eyes and yellow mouth/rim. Flex and sway the two lower green tentacles inward and outward, with opposite phases. Keep the open transparent gap and body upright.
+
+Yellow enemy:
+Keep the tapered yellow head, white cap, two round white eyes and yellow lower rim. Animate exactly two white curved pincers opening, closing and relaxing into their original pose.
+
+Player spaceship (final revision):
+Preserve the white/light-blue pointed hull, red cockpit, yellow nose, four red pylon tips and yellow engine nozzles. Create a subtle left/right banking cycle with short pulsing cyan/yellow exhaust below the central nozzle and the two wingtip nozzles. Keep the full ship and flame tips well inside each cell with generous transparent padding. No glow, particles, sparks, stars, text, background, or design change.
+
+Packaging:
+Generated raster atlases are retained unchanged in generated_atlases/. The usable 128x128 frames use one shared crop and nearest-neighbor scale per type, keeping in-cell movement and a fixed anchor. Negligible alpha speckles at or below the documented per-type alpha floor are cleared. See movement.json for timings, source sizes and processing details.

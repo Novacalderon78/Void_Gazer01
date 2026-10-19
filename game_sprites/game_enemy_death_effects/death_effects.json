@@ -1,0 +1,3169 @@
+{
+  "meta": {
+    "image": "death_sprite_sheet.png",
+    "size": [
+      1024,
+      512
+    ],
+    "cell_size": [
+      128,
+      128
+    ],
+    "order": [
+      "ufo",
+      "red_enemy",
+      "green_enemy",
+      "yellow_enemy"
+    ],
+    "frame_order": "left to right; frames 00 through 07",
+    "stages": [
+      "hit flash",
+      "breakup",
+      "fire burst",
+      "expansion",
+      "fading debris",
+      "dissipation",
+      "last sparks",
+      "transparent end"
+    ],
+    "durations_ms": [
+      80,
+      70,
+      80,
+      90,
+      100,
+      120,
+      140,
+      220
+    ],
+    "duration_ms": 900,
+    "play_once": true,
+    "loop": false,
+    "apng_total_play_count": 1,
+    "preview_loop": true,
+    "preview_durations_ms": [
+      80,
+      70,
+      80,
+      90,
+      100,
+      120,
+      140,
+      650
+    ],
+    "format": "RGBA8888",
+    "origin": "Newly created enemy death effects based on the static source sprites; these effects were not extracted from the screenshot.",
+    "processing": "Generated 4x2 raster atlases split into eight cells. One shared crop, nearest-neighbor scale, and offset per enemy. All expanding particle bounds retained inside a maximum 112 x 112 region. Last frame is entirely transparent.",
+    "alpha": "PNG frames, strips, sprite sheet, and animated PNGs retain transparency; GIF/still previews use a fixed dark checkerboard.",
+    "source": {
+      "original_static_metadata": "../sprites.json",
+      "source_frames": 1,
+      "note": "Newly generated enemy death effects; static and movement assets remain unchanged."
+    }
+  },
+  "sprites": {
+    "ufo": {
+      "row": 0,
+      "frame_count": 8,
+      "play_once": true,
+      "loop": false,
+      "strip": "strips/ufo_death_strip.png",
+      "animation": "animations/ufo_death.png",
+      "preview": "previews/ufo_death.gif",
+      "frames": [
+        {
+          "index": 0,
+          "stage": "hit flash",
+          "source_cell": [
+            0,
+            0,
+            440,
+            447
+          ],
+          "source_offset_in_virtual_canvas": [
+            40,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            113,
+            191,
+            423,
+            357
+          ],
+          "alpha_bbox": [
+            38,
+            51,
+            103,
+            86
+          ],
+          "sha256_rgba": "7f9fe806b1a9970dac2f4d12cc4b6c76f1b32b977566e18d017892ad3e99f103",
+          "file": "frames/ufo/ufo_death_00.png",
+          "duration_ms": 80,
+          "sheet_rect": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 1,
+          "stage": "breakup",
+          "source_cell": [
+            440,
+            0,
+            440,
+            447
+          ],
+          "source_offset_in_virtual_canvas": [
+            40,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            87,
+            147,
+            420,
+            369
+          ],
+          "alpha_bbox": [
+            33,
+            42,
+            103,
+            88
+          ],
+          "sha256_rgba": "b059119934cdbb25b1a340e41d647e1cac8236b1aa892835a164cb988ec46698",
+          "file": "frames/ufo/ufo_death_01.png",
+          "duration_ms": 70,
+          "sheet_rect": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 2,
+          "stage": "fire burst",
+          "source_cell": [
+            880,
+            0,
+            400,
+            447
+          ],
+          "source_offset_in_virtual_canvas": [
+            40,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            78,
+            91,
+            416,
+            402
+          ],
+          "alpha_bbox": [
+            31,
+            30,
+            102,
+            95
+          ],
+          "sha256_rgba": "3fd1ef27486fbe38dd705ad27caa44d258b40ef4d1182a3f829cac0784bd6efb",
+          "file": "frames/ufo/ufo_death_02.png",
+          "duration_ms": 80,
+          "sheet_rect": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "stage": "expansion",
+          "source_cell": [
+            1280,
+            0,
+            480,
+            447
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            27,
+            60,
+            446,
+            439
+          ],
+          "alpha_bbox": [
+            20,
+            24,
+            108,
+            103
+          ],
+          "sha256_rgba": "8f51671a914336adb715c11748390636112bb39fea773f822c979d09be731a3f",
+          "file": "frames/ufo/ufo_death_03.png",
+          "duration_ms": 90,
+          "sheet_rect": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 4,
+          "stage": "fading debris",
+          "source_cell": [
+            0,
+            447,
+            440,
+            447
+          ],
+          "source_offset_in_virtual_canvas": [
+            40,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            153,
+            126,
+            389,
+            367
+          ],
+          "alpha_bbox": [
+            46,
+            38,
+            96,
+            88
+          ],
+          "sha256_rgba": "c00c7a532ec5be0366f101a292a1253ed40e9b62f7ee838d0cef5dd45e990ecf",
+          "file": "frames/ufo/ufo_death_04.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 5,
+          "stage": "dissipation",
+          "source_cell": [
+            440,
+            447,
+            440,
+            447
+          ],
+          "source_offset_in_virtual_canvas": [
+            40,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            173,
+            156,
+            347,
+            349
+          ],
+          "alpha_bbox": [
+            51,
+            44,
+            87,
+            84
+          ],
+          "sha256_rgba": "bbbb88c21de109a3da334c66ab52cf6975af5534b12a55f423da89bd0db904d5",
+          "file": "frames/ufo/ufo_death_05.png",
+          "duration_ms": 120,
+          "sheet_rect": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 6,
+          "stage": "last sparks",
+          "source_cell": [
+            880,
+            447,
+            440,
+            447
+          ],
+          "source_offset_in_virtual_canvas": [
+            40,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            218,
+            244,
+            276,
+            296
+          ],
+          "alpha_bbox": [
+            60,
+            63,
+            72,
+            73
+          ],
+          "sha256_rgba": "9466c59153aeab4ec5eec27e11a1eb1c42b27a2c7ca77c5fd46261efcd8a9f14",
+          "file": "frames/ufo/ufo_death_06.png",
+          "duration_ms": 140,
+          "sheet_rect": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 7,
+          "stage": "transparent end",
+          "source_cell": [
+            1320,
+            447,
+            440,
+            447
+          ],
+          "source_offset_in_virtual_canvas": [
+            40,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": null,
+          "alpha_bbox": null,
+          "sha256_rgba": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+          "file": "frames/ufo/ufo_death_07.png",
+          "duration_ms": 220,
+          "sheet_rect": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        }
+      ]
+    },
+    "red_enemy": {
+      "row": 1,
+      "frame_count": 8,
+      "play_once": true,
+      "loop": false,
+      "strip": "strips/red_enemy_death_strip.png",
+      "animation": "animations/red_enemy_death.png",
+      "preview": "previews/red_enemy_death.gif",
+      "frames": [
+        {
+          "index": 0,
+          "stage": "hit flash",
+          "source_cell": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            83,
+            144,
+            370,
+            339
+          ],
+          "alpha_bbox": [
+            30,
+            41,
+            101,
+            89
+          ],
+          "sha256_rgba": "da5c66ad5c2f217fb8b677e0f1343ee504c9fa06d23bcf1712e3393187bb8d92",
+          "file": "frames/red_enemy/red_enemy_death_00.png",
+          "duration_ms": 80,
+          "sheet_rect": [
+            0,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 1,
+          "stage": "breakup",
+          "source_cell": [
+            444,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            74,
+            128,
+            373,
+            369
+          ],
+          "alpha_bbox": [
+            28,
+            37,
+            101,
+            96
+          ],
+          "sha256_rgba": "1d6b1f104c761d80d201e5f0d90e2165b2a9df0adf5996e70eb8c469f2ac74f5",
+          "file": "frames/red_enemy/red_enemy_death_01.png",
+          "duration_ms": 70,
+          "sheet_rect": [
+            128,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 2,
+          "stage": "fire burst",
+          "source_cell": [
+            888,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            75,
+            132,
+            353,
+            363
+          ],
+          "alpha_bbox": [
+            28,
+            38,
+            97,
+            95
+          ],
+          "sha256_rgba": "87f1051d303863eaadf63cedf88a6aa7f1492946ed61f804f716e7945443c91c",
+          "file": "frames/red_enemy/red_enemy_death_02.png",
+          "duration_ms": 80,
+          "sheet_rect": [
+            256,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "stage": "expansion",
+          "source_cell": [
+            1332,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            53,
+            73,
+            382,
+            401
+          ],
+          "alpha_bbox": [
+            23,
+            23,
+            104,
+            104
+          ],
+          "sha256_rgba": "5f7497659f4a6f2cbcea8507490a1348cfcef27f38355a312839b05b4cef2d62",
+          "file": "frames/red_enemy/red_enemy_death_03.png",
+          "duration_ms": 90,
+          "sheet_rect": [
+            384,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 4,
+          "stage": "fading debris",
+          "source_cell": [
+            0,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            128,
+            123,
+            333,
+            333
+          ],
+          "alpha_bbox": [
+            41,
+            35,
+            92,
+            87
+          ],
+          "sha256_rgba": "648eddff533fb00f76c791b17ae12d92c6befae54273b8974f3c1fc511d6922b",
+          "file": "frames/red_enemy/red_enemy_death_04.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            512,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 5,
+          "stage": "dissipation",
+          "source_cell": [
+            444,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            135,
+            123,
+            313,
+            319
+          ],
+          "alpha_bbox": [
+            44,
+            35,
+            87,
+            83
+          ],
+          "sha256_rgba": "32a82283b210640ad056f7d021974c51479b86432cdc809464c8bb84f28320ef",
+          "file": "frames/red_enemy/red_enemy_death_05.png",
+          "duration_ms": 120,
+          "sheet_rect": [
+            640,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 6,
+          "stage": "last sparks",
+          "source_cell": [
+            888,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            170,
+            201,
+            271,
+            258
+          ],
+          "alpha_bbox": [
+            52,
+            55,
+            77,
+            69
+          ],
+          "sha256_rgba": "13135a7ab5b1119d058e39adc5f586cec4b0023cf44d2d5a6035004f62bd595d",
+          "file": "frames/red_enemy/red_enemy_death_06.png",
+          "duration_ms": 140,
+          "sheet_rect": [
+            768,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 7,
+          "stage": "transparent end",
+          "source_cell": [
+            1332,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": null,
+          "alpha_bbox": null,
+          "sha256_rgba": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+          "file": "frames/red_enemy/red_enemy_death_07.png",
+          "duration_ms": 220,
+          "sheet_rect": [
+            896,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        }
+      ]
+    },
+    "green_enemy": {
+      "row": 2,
+      "frame_count": 8,
+      "play_once": true,
+      "loop": false,
+      "strip": "strips/green_enemy_death_strip.png",
+      "animation": "animations/green_enemy_death.png",
+      "preview": "previews/green_enemy_death.gif",
+      "frames": [
+        {
+          "index": 0,
+          "stage": "hit flash",
+          "source_cell": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            128,
+            162,
+            316,
+            364
+          ],
+          "alpha_bbox": [
+            42,
+            43,
+            86,
+            90
+          ],
+          "sha256_rgba": "cc065626367d345b3f43ba4364fb825586e03d9913ebb6ee2e0e75b7b7ee57ac",
+          "file": "frames/green_enemy/green_enemy_death_00.png",
+          "duration_ms": 80,
+          "sheet_rect": [
+            0,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 1,
+          "stage": "breakup",
+          "source_cell": [
+            444,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            118,
+            136,
+            336,
+            369
+          ],
+          "alpha_bbox": [
+            39,
+            37,
+            90,
+            91
+          ],
+          "sha256_rgba": "a37f8ff823346924af23779cef7c1bf84abd198f20117cba14efdbd92e11ad87",
+          "file": "frames/green_enemy/green_enemy_death_01.png",
+          "duration_ms": 70,
+          "sheet_rect": [
+            128,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 2,
+          "stage": "fire burst",
+          "source_cell": [
+            888,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            83,
+            140,
+            358,
+            375
+          ],
+          "alpha_bbox": [
+            31,
+            38,
+            95,
+            92
+          ],
+          "sha256_rgba": "1b12551d569b529b6c113d08a906d59a93ddf7a1e8fa708acf4e6bd628fb3662",
+          "file": "frames/green_enemy/green_enemy_death_02.png",
+          "duration_ms": 80,
+          "sheet_rect": [
+            256,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "stage": "expansion",
+          "source_cell": [
+            1332,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            56,
+            98,
+            386,
+            409
+          ],
+          "alpha_bbox": [
+            25,
+            28,
+            102,
+            100
+          ],
+          "sha256_rgba": "2a6b0e438e399d5df3f19baecef30778de14205e9e1b8414deb868ee0243ed98",
+          "file": "frames/green_enemy/green_enemy_death_03.png",
+          "duration_ms": 90,
+          "sheet_rect": [
+            384,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 4,
+          "stage": "fading debris",
+          "source_cell": [
+            0,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            114,
+            132,
+            344,
+            329
+          ],
+          "alpha_bbox": [
+            39,
+            37,
+            92,
+            81
+          ],
+          "sha256_rgba": "ccf1cc648d83217aaebbcade9e1495f5c45b6685c98b4b7418d479dc720aaf1c",
+          "file": "frames/green_enemy/green_enemy_death_04.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            512,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 5,
+          "stage": "dissipation",
+          "source_cell": [
+            444,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            124,
+            136,
+            324,
+            313
+          ],
+          "alpha_bbox": [
+            42,
+            37,
+            88,
+            77
+          ],
+          "sha256_rgba": "d28bc19a9cb695200a8d4ef1f1ed244a89bc7d53c24db2fb95232b2f626e88aa",
+          "file": "frames/green_enemy/green_enemy_death_05.png",
+          "duration_ms": 120,
+          "sheet_rect": [
+            640,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 6,
+          "stage": "last sparks",
+          "source_cell": [
+            888,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            172,
+            197,
+            265,
+            251
+          ],
+          "alpha_bbox": [
+            53,
+            51,
+            74,
+            63
+          ],
+          "sha256_rgba": "5c7a8b7637fa65d7df739d5d908703f44e02d435985614db4394dfbaa4e41ef7",
+          "file": "frames/green_enemy/green_enemy_death_06.png",
+          "duration_ms": 140,
+          "sheet_rect": [
+            768,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 7,
+          "stage": "transparent end",
+          "source_cell": [
+            1332,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": null,
+          "alpha_bbox": null,
+          "sha256_rgba": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+          "file": "frames/green_enemy/green_enemy_death_07.png",
+          "duration_ms": 220,
+          "sheet_rect": [
+            896,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        }
+      ]
+    },
+    "yellow_enemy": {
+      "row": 3,
+      "frame_count": 8,
+      "play_once": true,
+      "loop": false,
+      "strip": "strips/yellow_enemy_death_strip.png",
+      "animation": "animations/yellow_enemy_death.png",
+      "preview": "previews/yellow_enemy_death.gif",
+      "frames": [
+        {
+          "index": 0,
+          "stage": "hit flash",
+          "source_cell": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            119,
+            157,
+            358,
+            402
+          ],
+          "alpha_bbox": [
+            40,
+            40,
+            104,
+            105
+          ],
+          "sha256_rgba": "ad20565e82155997f8e0467f2d79916a64816d5269118dd982f4d671d88cb747",
+          "file": "frames/yellow_enemy/yellow_enemy_death_00.png",
+          "duration_ms": 80,
+          "sheet_rect": [
+            0,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 1,
+          "stage": "breakup",
+          "source_cell": [
+            444,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            117,
+            135,
+            359,
+            413
+          ],
+          "alpha_bbox": [
+            39,
+            33,
+            104,
+            108
+          ],
+          "sha256_rgba": "df96fbbe77bacb4f4d5b608bc0b3bc7ee7199380d8b0c61bac6e344c61ba0b65",
+          "file": "frames/yellow_enemy/yellow_enemy_death_01.png",
+          "duration_ms": 70,
+          "sheet_rect": [
+            128,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 2,
+          "stage": "fire burst",
+          "source_cell": [
+            888,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            60,
+            130,
+            334,
+            418
+          ],
+          "alpha_bbox": [
+            25,
+            32,
+            98,
+            109
+          ],
+          "sha256_rgba": "594f7499f3b9568978933b6f3b974f6870946baea1bfb5f8ef559c54a6294852",
+          "file": "frames/yellow_enemy/yellow_enemy_death_02.png",
+          "duration_ms": 80,
+          "sheet_rect": [
+            256,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "stage": "expansion",
+          "source_cell": [
+            1332,
+            0,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            19,
+            63,
+            395,
+            432
+          ],
+          "alpha_bbox": [
+            13,
+            15,
+            114,
+            112
+          ],
+          "sha256_rgba": "f76024c0781ad803d2e9654eb9edb6a1d6d9c29e7b78fb0e4a8e4a3c41c17a21",
+          "file": "frames/yellow_enemy/yellow_enemy_death_03.png",
+          "duration_ms": 90,
+          "sheet_rect": [
+            384,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 4,
+          "stage": "fading debris",
+          "source_cell": [
+            0,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            129,
+            152,
+            336,
+            339
+          ],
+          "alpha_bbox": [
+            43,
+            38,
+            98,
+            88
+          ],
+          "sha256_rgba": "8fd691476592e860544b10c8d127ec638fddc0582fd4af96c4b5e9b5c5cc9a84",
+          "file": "frames/yellow_enemy/yellow_enemy_death_04.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            512,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 5,
+          "stage": "dissipation",
+          "source_cell": [
+            444,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            124,
+            177,
+            305,
+            326
+          ],
+          "alpha_bbox": [
+            42,
+            45,
+            89,
+            85
+          ],
+          "sha256_rgba": "cad81bb1a4977a33f978873e8f39635fb975349eef3bbaffb9710e30de960d60",
+          "file": "frames/yellow_enemy/yellow_enemy_death_05.png",
+          "duration_ms": 120,
+          "sheet_rect": [
+            640,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 6,
+          "stage": "last sparks",
+          "source_cell": [
+            888,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": [
+            179,
+            223,
+            251,
+            276
+          ],
+          "alpha_bbox": [
+            56,
+            57,
+            75,
+            71
+          ],
+          "sha256_rgba": "b3484118ffc112817f8a44a7a1fc2726a0c7a66188baf93efd35a16b8b94a4b9",
+          "file": "frames/yellow_enemy/yellow_enemy_death_06.png",
+          "duration_ms": 140,
+          "sheet_rect": [
+            768,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 7,
+          "stage": "transparent end",
+          "source_cell": [
+            1332,
+            444,
+            444,
+            444
+          ],
+          "source_offset_in_virtual_canvas": [
+            0,
+            0
+          ],
+          "source_alpha_bbox_in_virtual_canvas": null,
+          "alpha_bbox": null,
+          "sha256_rgba": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+          "file": "frames/yellow_enemy/yellow_enemy_death_07.png",
+          "duration_ms": 220,
+          "sheet_rect": [
+            896,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        }
+      ]
+    }
+  },
+  "qa": {
+    "checks": [
+      "Eight equal cells per input",
+      "First seven frames visible unless explicitly allowed empty",
+      "Last frame entirely transparent",
+      "RGBA transparency retained",
+      "At least eight-pixel exterior margin",
+      "One shared transform per type",
+      "No unexpected duplicate frames",
+      "APNG total play count one",
+      "APNG pixels match separate frames",
+      "GIF preview holds blank final frame",
+      "Sheet and strip pixels match separate frames",
+      "ZIP integrity"
+    ],
+    "sources": {
+      "ufo": {
+        "atlas": "C:\\Users\\termi.UNIT_04\\.codex\\generated_images\\01a14f82-5938-70f0-a04d-775b315384b2\\exec-73d64f68-120e-4718-9d38-1a5bdac5b9a6.png",
+        "atlas_sha256": "13160d0f4c2e7de17c680766c7b22e4cc26e0ddd5bbd6fbc4e5849576dd1022c",
+        "atlas_size": [
+          1760,
+          894
+        ],
+        "padded_atlas_size": [
+          1760,
+          894
+        ],
+        "alpha_floor": 2,
+        "source_cell_size": [
+          440,
+          447
+        ],
+        "virtual_cell_size": [
+          480,
+          447
+        ],
+        "base_cell_offset": [
+          40,
+          0
+        ],
+        "source_cell_overrides": {
+          "2": {
+            "rect": [
+              880,
+              0,
+              400,
+              447
+            ],
+            "offset": [
+              40,
+              0
+            ]
+          },
+          "3": {
+            "rect": [
+              1280,
+              0,
+              480,
+              447
+            ],
+            "offset": [
+              0,
+              0
+            ]
+          }
+        },
+        "shared_crop": [
+          27,
+          60,
+          446,
+          439
+        ],
+        "initial_sprite_reference_size": [
+          65,
+          33
+        ],
+        "initial_sprite_reference_axis": "width",
+        "resized_crop_size": [
+          88,
+          79
+        ],
+        "scale": 0.20967741935483872,
+        "offset": [
+          20,
+          24
+        ],
+        "source_edge_contact": [],
+        "terminal_frame_replaced_with_transparency": false,
+        "allowed_empty_frames": [
+          7
+        ],
+        "duplicate_frame_pairs": [],
+        "frames": [
+          {
+            "index": 0,
+            "stage": "hit flash",
+            "source_cell": [
+              0,
+              0,
+              440,
+              447
+            ],
+            "source_offset_in_virtual_canvas": [
+              40,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              113,
+              191,
+              423,
+              357
+            ],
+            "alpha_bbox": [
+              38,
+              51,
+              103,
+              86
+            ],
+            "sha256_rgba": "7f9fe806b1a9970dac2f4d12cc4b6c76f1b32b977566e18d017892ad3e99f103",
+            "file": "frames/ufo/ufo_death_00.png",
+            "duration_ms": 80,
+            "sheet_rect": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 1,
+            "stage": "breakup",
+            "source_cell": [
+              440,
+              0,
+              440,
+              447
+            ],
+            "source_offset_in_virtual_canvas": [
+              40,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              87,
+              147,
+              420,
+              369
+            ],
+            "alpha_bbox": [
+              33,
+              42,
+              103,
+              88
+            ],
+            "sha256_rgba": "b059119934cdbb25b1a340e41d647e1cac8236b1aa892835a164cb988ec46698",
+            "file": "frames/ufo/ufo_death_01.png",
+            "duration_ms": 70,
+            "sheet_rect": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 2,
+            "stage": "fire burst",
+            "source_cell": [
+              880,
+              0,
+              400,
+              447
+            ],
+            "source_offset_in_virtual_canvas": [
+              40,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              78,
+              91,
+              416,
+              402
+            ],
+            "alpha_bbox": [
+              31,
+              30,
+              102,
+              95
+            ],
+            "sha256_rgba": "3fd1ef27486fbe38dd705ad27caa44d258b40ef4d1182a3f829cac0784bd6efb",
+            "file": "frames/ufo/ufo_death_02.png",
+            "duration_ms": 80,
+            "sheet_rect": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 3,
+            "stage": "expansion",
+            "source_cell": [
+              1280,
+              0,
+              480,
+              447
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              27,
+              60,
+              446,
+              439
+            ],
+            "alpha_bbox": [
+              20,
+              24,
+              108,
+              103
+            ],
+            "sha256_rgba": "8f51671a914336adb715c11748390636112bb39fea773f822c979d09be731a3f",
+            "file": "frames/ufo/ufo_death_03.png",
+            "duration_ms": 90,
+            "sheet_rect": [
+              384,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              384,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 4,
+            "stage": "fading debris",
+            "source_cell": [
+              0,
+              447,
+              440,
+              447
+            ],
+            "source_offset_in_virtual_canvas": [
+              40,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              153,
+              126,
+              389,
+              367
+            ],
+            "alpha_bbox": [
+              46,
+              38,
+              96,
+              88
+            ],
+            "sha256_rgba": "c00c7a532ec5be0366f101a292a1253ed40e9b62f7ee838d0cef5dd45e990ecf",
+            "file": "frames/ufo/ufo_death_04.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              512,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              512,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 5,
+            "stage": "dissipation",
+            "source_cell": [
+              440,
+              447,
+              440,
+              447
+            ],
+            "source_offset_in_virtual_canvas": [
+              40,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              173,
+              156,
+              347,
+              349
+            ],
+            "alpha_bbox": [
+              51,
+              44,
+              87,
+              84
+            ],
+            "sha256_rgba": "bbbb88c21de109a3da334c66ab52cf6975af5534b12a55f423da89bd0db904d5",
+            "file": "frames/ufo/ufo_death_05.png",
+            "duration_ms": 120,
+            "sheet_rect": [
+              640,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              640,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 6,
+            "stage": "last sparks",
+            "source_cell": [
+              880,
+              447,
+              440,
+              447
+            ],
+            "source_offset_in_virtual_canvas": [
+              40,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              218,
+              244,
+              276,
+              296
+            ],
+            "alpha_bbox": [
+              60,
+              63,
+              72,
+              73
+            ],
+            "sha256_rgba": "9466c59153aeab4ec5eec27e11a1eb1c42b27a2c7ca77c5fd46261efcd8a9f14",
+            "file": "frames/ufo/ufo_death_06.png",
+            "duration_ms": 140,
+            "sheet_rect": [
+              768,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              768,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 7,
+            "stage": "transparent end",
+            "source_cell": [
+              1320,
+              447,
+              440,
+              447
+            ],
+            "source_offset_in_virtual_canvas": [
+              40,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": null,
+            "alpha_bbox": null,
+            "sha256_rgba": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+            "file": "frames/ufo/ufo_death_07.png",
+            "duration_ms": 220,
+            "sheet_rect": [
+              896,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              896,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          }
+        ]
+      },
+      "red_enemy": {
+        "atlas": "C:\\Users\\termi.UNIT_04\\.codex\\generated_images\\01a14f82-5938-70f0-a04d-775b315384b2\\exec-1b5d4f49-048e-47d8-8fbd-b188d2bde0e9.png",
+        "atlas_sha256": "b2eac54685812ed75c248625b6ad9c08683cefea6b0b52611ea5c67bdeee068f",
+        "atlas_size": [
+          1774,
+          887
+        ],
+        "padded_atlas_size": [
+          1776,
+          888
+        ],
+        "alpha_floor": 2,
+        "source_cell_size": [
+          444,
+          444
+        ],
+        "virtual_cell_size": [
+          444,
+          444
+        ],
+        "base_cell_offset": [
+          0,
+          0
+        ],
+        "source_cell_overrides": {},
+        "shared_crop": [
+          53,
+          73,
+          382,
+          401
+        ],
+        "initial_sprite_reference_size": [
+          71,
+          48
+        ],
+        "initial_sprite_reference_axis": "width",
+        "resized_crop_size": [
+          81,
+          81
+        ],
+        "scale": 0.24738675958188153,
+        "offset": [
+          23,
+          23
+        ],
+        "source_edge_contact": [],
+        "terminal_frame_replaced_with_transparency": false,
+        "allowed_empty_frames": [
+          7
+        ],
+        "duplicate_frame_pairs": [],
+        "frames": [
+          {
+            "index": 0,
+            "stage": "hit flash",
+            "source_cell": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              83,
+              144,
+              370,
+              339
+            ],
+            "alpha_bbox": [
+              30,
+              41,
+              101,
+              89
+            ],
+            "sha256_rgba": "da5c66ad5c2f217fb8b677e0f1343ee504c9fa06d23bcf1712e3393187bb8d92",
+            "file": "frames/red_enemy/red_enemy_death_00.png",
+            "duration_ms": 80,
+            "sheet_rect": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 1,
+            "stage": "breakup",
+            "source_cell": [
+              444,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              74,
+              128,
+              373,
+              369
+            ],
+            "alpha_bbox": [
+              28,
+              37,
+              101,
+              96
+            ],
+            "sha256_rgba": "1d6b1f104c761d80d201e5f0d90e2165b2a9df0adf5996e70eb8c469f2ac74f5",
+            "file": "frames/red_enemy/red_enemy_death_01.png",
+            "duration_ms": 70,
+            "sheet_rect": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 2,
+            "stage": "fire burst",
+            "source_cell": [
+              888,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              75,
+              132,
+              353,
+              363
+            ],
+            "alpha_bbox": [
+              28,
+              38,
+              97,
+              95
+            ],
+            "sha256_rgba": "87f1051d303863eaadf63cedf88a6aa7f1492946ed61f804f716e7945443c91c",
+            "file": "frames/red_enemy/red_enemy_death_02.png",
+            "duration_ms": 80,
+            "sheet_rect": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 3,
+            "stage": "expansion",
+            "source_cell": [
+              1332,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              53,
+              73,
+              382,
+              401
+            ],
+            "alpha_bbox": [
+              23,
+              23,
+              104,
+              104
+            ],
+            "sha256_rgba": "5f7497659f4a6f2cbcea8507490a1348cfcef27f38355a312839b05b4cef2d62",
+            "file": "frames/red_enemy/red_enemy_death_03.png",
+            "duration_ms": 90,
+            "sheet_rect": [
+              384,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              384,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 4,
+            "stage": "fading debris",
+            "source_cell": [
+              0,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              128,
+              123,
+              333,
+              333
+            ],
+            "alpha_bbox": [
+              41,
+              35,
+              92,
+              87
+            ],
+            "sha256_rgba": "648eddff533fb00f76c791b17ae12d92c6befae54273b8974f3c1fc511d6922b",
+            "file": "frames/red_enemy/red_enemy_death_04.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              512,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              512,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 5,
+            "stage": "dissipation",
+            "source_cell": [
+              444,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              135,
+              123,
+              313,
+              319
+            ],
+            "alpha_bbox": [
+              44,
+              35,
+              87,
+              83
+            ],
+            "sha256_rgba": "32a82283b210640ad056f7d021974c51479b86432cdc809464c8bb84f28320ef",
+            "file": "frames/red_enemy/red_enemy_death_05.png",
+            "duration_ms": 120,
+            "sheet_rect": [
+              640,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              640,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 6,
+            "stage": "last sparks",
+            "source_cell": [
+              888,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              170,
+              201,
+              271,
+              258
+            ],
+            "alpha_bbox": [
+              52,
+              55,
+              77,
+              69
+            ],
+            "sha256_rgba": "13135a7ab5b1119d058e39adc5f586cec4b0023cf44d2d5a6035004f62bd595d",
+            "file": "frames/red_enemy/red_enemy_death_06.png",
+            "duration_ms": 140,
+            "sheet_rect": [
+              768,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              768,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 7,
+            "stage": "transparent end",
+            "source_cell": [
+              1332,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": null,
+            "alpha_bbox": null,
+            "sha256_rgba": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+            "file": "frames/red_enemy/red_enemy_death_07.png",
+            "duration_ms": 220,
+            "sheet_rect": [
+              896,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              896,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          }
+        ]
+      },
+      "green_enemy": {
+        "atlas": "C:\\Users\\termi.UNIT_04\\.codex\\generated_images\\01a14f82-5938-70f0-a04d-775b315384b2\\exec-89713d0a-21a9-4afd-bfae-9f49a551cf48.png",
+        "atlas_sha256": "51923f43cf8354adb3ae95238b689395f5eadc0539033767b8b2f9e835cf9393",
+        "atlas_size": [
+          1774,
+          887
+        ],
+        "padded_atlas_size": [
+          1776,
+          888
+        ],
+        "alpha_floor": 2,
+        "source_cell_size": [
+          444,
+          444
+        ],
+        "virtual_cell_size": [
+          444,
+          444
+        ],
+        "base_cell_offset": [
+          0,
+          0
+        ],
+        "source_cell_overrides": {},
+        "shared_crop": [
+          56,
+          98,
+          386,
+          409
+        ],
+        "initial_sprite_reference_size": [
+          40,
+          47
+        ],
+        "initial_sprite_reference_axis": "height",
+        "resized_crop_size": [
+          77,
+          72
+        ],
+        "scale": 0.23267326732673269,
+        "offset": [
+          25,
+          28
+        ],
+        "source_edge_contact": [],
+        "terminal_frame_replaced_with_transparency": false,
+        "allowed_empty_frames": [
+          7
+        ],
+        "duplicate_frame_pairs": [],
+        "frames": [
+          {
+            "index": 0,
+            "stage": "hit flash",
+            "source_cell": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              128,
+              162,
+              316,
+              364
+            ],
+            "alpha_bbox": [
+              42,
+              43,
+              86,
+              90
+            ],
+            "sha256_rgba": "cc065626367d345b3f43ba4364fb825586e03d9913ebb6ee2e0e75b7b7ee57ac",
+            "file": "frames/green_enemy/green_enemy_death_00.png",
+            "duration_ms": 80,
+            "sheet_rect": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 1,
+            "stage": "breakup",
+            "source_cell": [
+              444,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              118,
+              136,
+              336,
+              369
+            ],
+            "alpha_bbox": [
+              39,
+              37,
+              90,
+              91
+            ],
+            "sha256_rgba": "a37f8ff823346924af23779cef7c1bf84abd198f20117cba14efdbd92e11ad87",
+            "file": "frames/green_enemy/green_enemy_death_01.png",
+            "duration_ms": 70,
+            "sheet_rect": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 2,
+            "stage": "fire burst",
+            "source_cell": [
+              888,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              83,
+              140,
+              358,
+              375
+            ],
+            "alpha_bbox": [
+              31,
+              38,
+              95,
+              92
+            ],
+            "sha256_rgba": "1b12551d569b529b6c113d08a906d59a93ddf7a1e8fa708acf4e6bd628fb3662",
+            "file": "frames/green_enemy/green_enemy_death_02.png",
+            "duration_ms": 80,
+            "sheet_rect": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 3,
+            "stage": "expansion",
+            "source_cell": [
+              1332,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              56,
+              98,
+              386,
+              409
+            ],
+            "alpha_bbox": [
+              25,
+              28,
+              102,
+              100
+            ],
+            "sha256_rgba": "2a6b0e438e399d5df3f19baecef30778de14205e9e1b8414deb868ee0243ed98",
+            "file": "frames/green_enemy/green_enemy_death_03.png",
+            "duration_ms": 90,
+            "sheet_rect": [
+              384,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              384,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 4,
+            "stage": "fading debris",
+            "source_cell": [
+              0,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              114,
+              132,
+              344,
+              329
+            ],
+            "alpha_bbox": [
+              39,
+              37,
+              92,
+              81
+            ],
+            "sha256_rgba": "ccf1cc648d83217aaebbcade9e1495f5c45b6685c98b4b7418d479dc720aaf1c",
+            "file": "frames/green_enemy/green_enemy_death_04.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              512,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              512,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 5,
+            "stage": "dissipation",
+            "source_cell": [
+              444,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              124,
+              136,
+              324,
+              313
+            ],
+            "alpha_bbox": [
+              42,
+              37,
+              88,
+              77
+            ],
+            "sha256_rgba": "d28bc19a9cb695200a8d4ef1f1ed244a89bc7d53c24db2fb95232b2f626e88aa",
+            "file": "frames/green_enemy/green_enemy_death_05.png",
+            "duration_ms": 120,
+            "sheet_rect": [
+              640,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              640,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 6,
+            "stage": "last sparks",
+            "source_cell": [
+              888,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              172,
+              197,
+              265,
+              251
+            ],
+            "alpha_bbox": [
+              53,
+              51,
+              74,
+              63
+            ],
+            "sha256_rgba": "5c7a8b7637fa65d7df739d5d908703f44e02d435985614db4394dfbaa4e41ef7",
+            "file": "frames/green_enemy/green_enemy_death_06.png",
+            "duration_ms": 140,
+            "sheet_rect": [
+              768,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              768,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 7,
+            "stage": "transparent end",
+            "source_cell": [
+              1332,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": null,
+            "alpha_bbox": null,
+            "sha256_rgba": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+            "file": "frames/green_enemy/green_enemy_death_07.png",
+            "duration_ms": 220,
+            "sheet_rect": [
+              896,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              896,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          }
+        ]
+      },
+      "yellow_enemy": {
+        "atlas": "C:\\Users\\termi.UNIT_04\\.codex\\generated_images\\01a14f82-5938-70f0-a04d-775b315384b2\\exec-f01b4dd1-c79e-4c35-b9be-4a0b0eaa4863.png",
+        "atlas_sha256": "38e36aac5734b5ed7e57b355b81811ae2c81fbdf0ff6f195b3f2d77992a4ec2e",
+        "atlas_size": [
+          1774,
+          887
+        ],
+        "padded_atlas_size": [
+          1776,
+          888
+        ],
+        "alpha_floor": 2,
+        "source_cell_size": [
+          444,
+          444
+        ],
+        "virtual_cell_size": [
+          444,
+          444
+        ],
+        "base_cell_offset": [
+          0,
+          0
+        ],
+        "source_cell_overrides": {},
+        "shared_crop": [
+          19,
+          63,
+          395,
+          432
+        ],
+        "initial_sprite_reference_size": [
+          43,
+          66
+        ],
+        "initial_sprite_reference_axis": "height",
+        "resized_crop_size": [
+          101,
+          99
+        ],
+        "scale": 0.2693877551020408,
+        "offset": [
+          13,
+          14
+        ],
+        "source_edge_contact": [],
+        "terminal_frame_replaced_with_transparency": false,
+        "allowed_empty_frames": [
+          7
+        ],
+        "duplicate_frame_pairs": [],
+        "frames": [
+          {
+            "index": 0,
+            "stage": "hit flash",
+            "source_cell": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              119,
+              157,
+              358,
+              402
+            ],
+            "alpha_bbox": [
+              40,
+              40,
+              104,
+              105
+            ],
+            "sha256_rgba": "ad20565e82155997f8e0467f2d79916a64816d5269118dd982f4d671d88cb747",
+            "file": "frames/yellow_enemy/yellow_enemy_death_00.png",
+            "duration_ms": 80,
+            "sheet_rect": [
+              0,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 1,
+            "stage": "breakup",
+            "source_cell": [
+              444,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              117,
+              135,
+              359,
+              413
+            ],
+            "alpha_bbox": [
+              39,
+              33,
+              104,
+              108
+            ],
+            "sha256_rgba": "df96fbbe77bacb4f4d5b608bc0b3bc7ee7199380d8b0c61bac6e344c61ba0b65",
+            "file": "frames/yellow_enemy/yellow_enemy_death_01.png",
+            "duration_ms": 70,
+            "sheet_rect": [
+              128,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 2,
+            "stage": "fire burst",
+            "source_cell": [
+              888,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              60,
+              130,
+              334,
+              418
+            ],
+            "alpha_bbox": [
+              25,
+              32,
+              98,
+              109
+            ],
+            "sha256_rgba": "594f7499f3b9568978933b6f3b974f6870946baea1bfb5f8ef559c54a6294852",
+            "file": "frames/yellow_enemy/yellow_enemy_death_02.png",
+            "duration_ms": 80,
+            "sheet_rect": [
+              256,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 3,
+            "stage": "expansion",
+            "source_cell": [
+              1332,
+              0,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              19,
+              63,
+              395,
+              432
+            ],
+            "alpha_bbox": [
+              13,
+              15,
+              114,
+              112
+            ],
+            "sha256_rgba": "f76024c0781ad803d2e9654eb9edb6a1d6d9c29e7b78fb0e4a8e4a3c41c17a21",
+            "file": "frames/yellow_enemy/yellow_enemy_death_03.png",
+            "duration_ms": 90,
+            "sheet_rect": [
+              384,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              384,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 4,
+            "stage": "fading debris",
+            "source_cell": [
+              0,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              129,
+              152,
+              336,
+              339
+            ],
+            "alpha_bbox": [
+              43,
+              38,
+              98,
+              88
+            ],
+            "sha256_rgba": "8fd691476592e860544b10c8d127ec638fddc0582fd4af96c4b5e9b5c5cc9a84",
+            "file": "frames/yellow_enemy/yellow_enemy_death_04.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              512,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              512,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 5,
+            "stage": "dissipation",
+            "source_cell": [
+              444,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              124,
+              177,
+              305,
+              326
+            ],
+            "alpha_bbox": [
+              42,
+              45,
+              89,
+              85
+            ],
+            "sha256_rgba": "cad81bb1a4977a33f978873e8f39635fb975349eef3bbaffb9710e30de960d60",
+            "file": "frames/yellow_enemy/yellow_enemy_death_05.png",
+            "duration_ms": 120,
+            "sheet_rect": [
+              640,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              640,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 6,
+            "stage": "last sparks",
+            "source_cell": [
+              888,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": [
+              179,
+              223,
+              251,
+              276
+            ],
+            "alpha_bbox": [
+              56,
+              57,
+              75,
+              71
+            ],
+            "sha256_rgba": "b3484118ffc112817f8a44a7a1fc2726a0c7a66188baf93efd35a16b8b94a4b9",
+            "file": "frames/yellow_enemy/yellow_enemy_death_06.png",
+            "duration_ms": 140,
+            "sheet_rect": [
+              768,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              768,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 7,
+            "stage": "transparent end",
+            "source_cell": [
+              1332,
+              444,
+              444,
+              444
+            ],
+            "source_offset_in_virtual_canvas": [
+              0,
+              0
+            ],
+            "source_alpha_bbox_in_virtual_canvas": null,
+            "alpha_bbox": null,
+            "sha256_rgba": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+            "file": "frames/yellow_enemy/yellow_enemy_death_07.png",
+            "duration_ms": 220,
+            "sheet_rect": [
+              896,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              896,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

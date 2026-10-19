@@ -1,0 +1,3484 @@
+{
+  "meta": {
+    "image": "movement_sprite_sheet.png",
+    "size": [
+      1024,
+      640
+    ],
+    "cell_size": [
+      128,
+      128
+    ],
+    "order": [
+      "ufo",
+      "red_enemy",
+      "green_enemy",
+      "yellow_enemy",
+      "player_spaceship"
+    ],
+    "frame_order": "left to right; frames 00 through 07",
+    "durations_ms": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "loop_duration_ms": 800,
+    "loop": true,
+    "format": "RGBA8888",
+    "origin": "Newly created animation based on a single-frame source screenshot; movement was not extracted from the original GIF.",
+    "processing": "Generated 4x2 raster atlases split into eight equal cells. One shared crop and nearest-neighbor scale per sprite; authored in-cell movement retained. All frame canvases and pivots fixed.",
+    "alpha": "Transparent PNG frames, strips, sheet, and animated PNGs. GIF previews use a fixed dark checker background.",
+    "source": {
+      "original_static_metadata": "../sprites.json",
+      "source_frames": 1,
+      "note": "Newly generated movement; original static extraction remains unchanged."
+    }
+  },
+  "sprites": {
+    "ufo": {
+      "row": 0,
+      "frame_count": 8,
+      "strip": "strips/ufo_strip.png",
+      "animation": "animations/ufo.png",
+      "preview": "previews/ufo.gif",
+      "frames": [
+        {
+          "index": 0,
+          "source_cell": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            37,
+            139,
+            407,
+            339
+          ],
+          "alpha_bbox": [
+            32,
+            49,
+            96,
+            83
+          ],
+          "sha256_rgba": "e8978e63ea6d4b92a12a912def812332fde9a8cba36225af55f2c09a6867ef53",
+          "file": "frames/ufo/ufo_00.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 1,
+          "source_cell": [
+            444,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            37,
+            115,
+            409,
+            308
+          ],
+          "alpha_bbox": [
+            32,
+            44,
+            96,
+            78
+          ],
+          "sha256_rgba": "086be8dc9d0dc7d69cd26513ca7b8eebf29f6973ec1a2107d927973670831713",
+          "file": "frames/ufo/ufo_01.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 2,
+          "source_cell": [
+            888,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            36,
+            135,
+            406,
+            333
+          ],
+          "alpha_bbox": [
+            31,
+            48,
+            95,
+            82
+          ],
+          "sha256_rgba": "3d76d81d9ea71892618bbb3643f17dcd0f5625f9128e17e4531ce76c1b626f80",
+          "file": "frames/ufo/ufo_02.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "source_cell": [
+            1332,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            35,
+            151,
+            407,
+            351
+          ],
+          "alpha_bbox": [
+            32,
+            51,
+            96,
+            85
+          ],
+          "sha256_rgba": "9329445c01aaf8e1a42af4815ceb2339141e8ec19d0016cada6db81b4d1ca896",
+          "file": "frames/ufo/ufo_03.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 4,
+          "source_cell": [
+            0,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            37,
+            128,
+            407,
+            327
+          ],
+          "alpha_bbox": [
+            32,
+            47,
+            96,
+            81
+          ],
+          "sha256_rgba": "500386703fbb13b9181d9da2b6c02e4a28602f7f473df8ab84424d84430454b4",
+          "file": "frames/ufo/ufo_04.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 5,
+          "source_cell": [
+            444,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            37,
+            107,
+            408,
+            302
+          ],
+          "alpha_bbox": [
+            32,
+            43,
+            96,
+            77
+          ],
+          "sha256_rgba": "6c82f18bd28e9f92d7e80b45da48940ddfb5b3cf0e5be73df65082b833890090",
+          "file": "frames/ufo/ufo_05.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 6,
+          "source_cell": [
+            888,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            36,
+            128,
+            406,
+            328
+          ],
+          "alpha_bbox": [
+            31,
+            47,
+            95,
+            81
+          ],
+          "sha256_rgba": "7e7733980a4088d51fd97dfcacc5eb5be86c1ca49afef04fea00e4bd83581b16",
+          "file": "frames/ufo/ufo_06.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 7,
+          "source_cell": [
+            1332,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            34,
+            138,
+            407,
+            335
+          ],
+          "alpha_bbox": [
+            31,
+            48,
+            95,
+            82
+          ],
+          "sha256_rgba": "9757ae495ef06e74411920603abe2de8b0b6ad62c11410ea158bd7519938c457",
+          "file": "frames/ufo/ufo_07.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "strip_rect": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        }
+      ]
+    },
+    "red_enemy": {
+      "row": 1,
+      "frame_count": 8,
+      "strip": "strips/red_enemy_strip.png",
+      "animation": "animations/red_enemy.png",
+      "preview": "previews/red_enemy.gif",
+      "frames": [
+        {
+          "index": 0,
+          "source_cell": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            33,
+            106,
+            406,
+            361
+          ],
+          "alpha_bbox": [
+            29,
+            40,
+            98,
+            88
+          ],
+          "sha256_rgba": "56e7e16a79606017ed78dad6baa8018a5fae1931158508d3273a14dc93f0b853",
+          "file": "frames/red_enemy/red_enemy_00.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            0,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 1,
+          "source_cell": [
+            444,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            37,
+            104,
+            410,
+            358
+          ],
+          "alpha_bbox": [
+            29,
+            40,
+            99,
+            87
+          ],
+          "sha256_rgba": "200aa96bbe9e60e12c715fa8e01fac7dcb1bed53c9464c29901b436250bfdd1e",
+          "file": "frames/red_enemy/red_enemy_01.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            128,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 2,
+          "source_cell": [
+            888,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            29,
+            98,
+            405,
+            358
+          ],
+          "alpha_bbox": [
+            28,
+            39,
+            98,
+            87
+          ],
+          "sha256_rgba": "87d1eb455b5eb3a475aafe1ee93038902d28e681f2f6d93ca31c898bbffe4ce8",
+          "file": "frames/red_enemy/red_enemy_02.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            256,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "source_cell": [
+            1332,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            36,
+            99,
+            409,
+            359
+          ],
+          "alpha_bbox": [
+            30,
+            39,
+            99,
+            87
+          ],
+          "sha256_rgba": "21460bbb8a256f789b131f39042a1e16cda88d61fb054205dc7e4fc244af8697",
+          "file": "frames/red_enemy/red_enemy_03.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            384,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 4,
+          "source_cell": [
+            0,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            33,
+            105,
+            406,
+            363
+          ],
+          "alpha_bbox": [
+            29,
+            40,
+            98,
+            88
+          ],
+          "sha256_rgba": "d39e63c0cc4fb190135de647821662d27cd09f0b4188f02c71c8831037b6952f",
+          "file": "frames/red_enemy/red_enemy_04.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            512,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 5,
+          "source_cell": [
+            444,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            37,
+            101,
+            411,
+            358
+          ],
+          "alpha_bbox": [
+            29,
+            40,
+            99,
+            87
+          ],
+          "sha256_rgba": "0c604ce0ff2f674ecac6778c78a2cd5c3211b64c413344fb1c082fcd0f236363",
+          "file": "frames/red_enemy/red_enemy_05.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            640,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 6,
+          "source_cell": [
+            888,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            34,
+            101,
+            405,
+            358
+          ],
+          "alpha_bbox": [
+            29,
+            40,
+            98,
+            87
+          ],
+          "sha256_rgba": "2c055076dc2ee18c7698c01580baa462372f8e48470fc9497d4a05a348a79aa1",
+          "file": "frames/red_enemy/red_enemy_06.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            768,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 7,
+          "source_cell": [
+            1332,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            36,
+            105,
+            410,
+            362
+          ],
+          "alpha_bbox": [
+            30,
+            40,
+            99,
+            88
+          ],
+          "sha256_rgba": "630ee2d6da1b4a1d382723a63d15415aefd791e96b07b940df9a57ebbdb34ec8",
+          "file": "frames/red_enemy/red_enemy_07.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            896,
+            128,
+            128,
+            128
+          ],
+          "strip_rect": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        }
+      ]
+    },
+    "green_enemy": {
+      "row": 2,
+      "frame_count": 8,
+      "strip": "strips/green_enemy_strip.png",
+      "animation": "animations/green_enemy.png",
+      "preview": "previews/green_enemy.gif",
+      "frames": [
+        {
+          "index": 0,
+          "source_cell": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            101,
+            99,
+            342,
+            384
+          ],
+          "alpha_bbox": [
+            44,
+            41,
+            83,
+            87
+          ],
+          "sha256_rgba": "3052e4b08db376446e241ef3470bb59dcc077e8bf223a910175651ee7b787af6",
+          "file": "frames/green_enemy/green_enemy_00.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            0,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 1,
+          "source_cell": [
+            444,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            101,
+            101,
+            342,
+            390
+          ],
+          "alpha_bbox": [
+            44,
+            41,
+            84,
+            88
+          ],
+          "sha256_rgba": "3b9a40230ee08a964112a20fa980c3887a1c314203e2e7ce4a2cb8fcc430c5bc",
+          "file": "frames/green_enemy/green_enemy_01.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            128,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 2,
+          "source_cell": [
+            888,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            100,
+            100,
+            340,
+            389
+          ],
+          "alpha_bbox": [
+            44,
+            41,
+            84,
+            88
+          ],
+          "sha256_rgba": "b14c5f616bee97e0acf54ac44400bfb9705ebf458a7087a8cac544995e2cf563",
+          "file": "frames/green_enemy/green_enemy_02.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            256,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "source_cell": [
+            1332,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            99,
+            101,
+            343,
+            390
+          ],
+          "alpha_bbox": [
+            45,
+            41,
+            84,
+            88
+          ],
+          "sha256_rgba": "bdea7ea6583076247d5e4a28fa488d0f1e4c9ad0a458d91f0c7105bb947b8c03",
+          "file": "frames/green_enemy/green_enemy_03.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            384,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 4,
+          "source_cell": [
+            0,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            101,
+            101,
+            342,
+            391
+          ],
+          "alpha_bbox": [
+            44,
+            41,
+            84,
+            88
+          ],
+          "sha256_rgba": "42553ba4098f9300c1cba00903392429cda4294851674028202b376ae6946029",
+          "file": "frames/green_enemy/green_enemy_04.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            512,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 5,
+          "source_cell": [
+            444,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            101,
+            101,
+            341,
+            384
+          ],
+          "alpha_bbox": [
+            44,
+            41,
+            83,
+            86
+          ],
+          "sha256_rgba": "671b4dea1830ae94013aa15d402e214d4fd0ef1740b18a6819deb64d2ed882d4",
+          "file": "frames/green_enemy/green_enemy_05.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            640,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 6,
+          "source_cell": [
+            888,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            100,
+            101,
+            340,
+            384
+          ],
+          "alpha_bbox": [
+            44,
+            41,
+            84,
+            86
+          ],
+          "sha256_rgba": "d27085ca27f76eccffd1952dbd2be5d75d6ceb9c8c6aa57caf1f6ed9e265e592",
+          "file": "frames/green_enemy/green_enemy_06.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            768,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 7,
+          "source_cell": [
+            1332,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            92,
+            101,
+            341,
+            383
+          ],
+          "alpha_bbox": [
+            43,
+            41,
+            84,
+            86
+          ],
+          "sha256_rgba": "0b52a0ef88115bfb3609d5d0f72a6c5eb63f32eb3081865ab253ee2e375b220c",
+          "file": "frames/green_enemy/green_enemy_07.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            896,
+            256,
+            128,
+            128
+          ],
+          "strip_rect": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        }
+      ]
+    },
+    "yellow_enemy": {
+      "row": 3,
+      "frame_count": 8,
+      "strip": "strips/yellow_enemy_strip.png",
+      "animation": "animations/yellow_enemy.png",
+      "preview": "previews/yellow_enemy.gif",
+      "frames": [
+        {
+          "index": 0,
+          "source_cell": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            116,
+            77,
+            327,
+            387
+          ],
+          "alpha_bbox": [
+            41,
+            30,
+            86,
+            97
+          ],
+          "sha256_rgba": "b7f5fe98d147968bb279108e62eec37c878ba04cf1c6dbf92f4159269cd4c5d9",
+          "file": "frames/yellow_enemy/yellow_enemy_00.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            0,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 1,
+          "source_cell": [
+            444,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            99,
+            77,
+            344,
+            385
+          ],
+          "alpha_bbox": [
+            37,
+            30,
+            90,
+            97
+          ],
+          "sha256_rgba": "02870062f1b217fcb4ac872f94207327eefd86fb923250cb004367253e4fd679",
+          "file": "frames/yellow_enemy/yellow_enemy_01.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            128,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 2,
+          "source_cell": [
+            888,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            74,
+            77,
+            369,
+            387
+          ],
+          "alpha_bbox": [
+            33,
+            30,
+            95,
+            97
+          ],
+          "sha256_rgba": "e6d29136a072960b36c7bb0d21d25353c379a6ab8bf18db04b664cecff26df80",
+          "file": "frames/yellow_enemy/yellow_enemy_02.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            256,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "source_cell": [
+            1332,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            100,
+            77,
+            343,
+            386
+          ],
+          "alpha_bbox": [
+            38,
+            30,
+            89,
+            97
+          ],
+          "sha256_rgba": "bcb31a3dcf8d3252882660a92c58c040e5e27bf497019cb51b72ad7170114807",
+          "file": "frames/yellow_enemy/yellow_enemy_03.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            384,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 4,
+          "source_cell": [
+            0,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            114,
+            76,
+            327,
+            377
+          ],
+          "alpha_bbox": [
+            41,
+            30,
+            86,
+            95
+          ],
+          "sha256_rgba": "fc29cb08ff68a2e1d73231bd886dc0f937c155c0c0624ca1c16191c685244240",
+          "file": "frames/yellow_enemy/yellow_enemy_04.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            512,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 5,
+          "source_cell": [
+            444,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            115,
+            75,
+            329,
+            381
+          ],
+          "alpha_bbox": [
+            41,
+            30,
+            86,
+            96
+          ],
+          "sha256_rgba": "a78e595e40e430c921adb58ee4c31ce9f82cc96b386830b7388322dd56a3bdda",
+          "file": "frames/yellow_enemy/yellow_enemy_05.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            640,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 6,
+          "source_cell": [
+            888,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            113,
+            77,
+            326,
+            379
+          ],
+          "alpha_bbox": [
+            40,
+            30,
+            85,
+            95
+          ],
+          "sha256_rgba": "dc86a3e7495b1ca99e627589b221b8c3061f6306f4b47324bafaa8df78da9c1c",
+          "file": "frames/yellow_enemy/yellow_enemy_06.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            768,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 7,
+          "source_cell": [
+            1332,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            116,
+            75,
+            328,
+            391
+          ],
+          "alpha_bbox": [
+            42,
+            30,
+            86,
+            98
+          ],
+          "sha256_rgba": "b2ba4154ddc1a063348d7692e57f43fa47904726534ec57748082aad017500e7",
+          "file": "frames/yellow_enemy/yellow_enemy_07.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            896,
+            384,
+            128,
+            128
+          ],
+          "strip_rect": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        }
+      ]
+    },
+    "player_spaceship": {
+      "row": 4,
+      "frame_count": 8,
+      "strip": "strips/player_spaceship_strip.png",
+      "animation": "animations/player_spaceship.png",
+      "preview": "previews/player_spaceship.gif",
+      "frames": [
+        {
+          "index": 0,
+          "source_cell": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            116,
+            128,
+            327,
+            370
+          ],
+          "alpha_bbox": [
+            17,
+            12,
+            111,
+            118
+          ],
+          "sha256_rgba": "d4bec6a95acb67c96375bd67df3d983e102a3bb5b577b6914e50fc663b058ba9",
+          "file": "frames/player_spaceship/player_spaceship_00.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            0,
+            512,
+            128,
+            128
+          ],
+          "strip_rect": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 1,
+          "source_cell": [
+            444,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            119,
+            130,
+            329,
+            371
+          ],
+          "alpha_bbox": [
+            18,
+            12,
+            112,
+            119
+          ],
+          "sha256_rgba": "fc6e52d6cd98f54600a396ddde6f90577f467983ce171b2abc5cad078a6fad30",
+          "file": "frames/player_spaceship/player_spaceship_01.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            128,
+            512,
+            128,
+            128
+          ],
+          "strip_rect": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 2,
+          "source_cell": [
+            888,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            113,
+            129,
+            327,
+            374
+          ],
+          "alpha_bbox": [
+            16,
+            12,
+            111,
+            120
+          ],
+          "sha256_rgba": "0c4249078e1a970cd99893b0e67c2e0a000fdb4190d5f9e5456a9ee191673a1a",
+          "file": "frames/player_spaceship/player_spaceship_02.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            256,
+            512,
+            128,
+            128
+          ],
+          "strip_rect": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 3,
+          "source_cell": [
+            1332,
+            0,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            109,
+            130,
+            320,
+            371
+          ],
+          "alpha_bbox": [
+            14,
+            12,
+            108,
+            119
+          ],
+          "sha256_rgba": "f5097823a8e99156f92efccf5cfc625000d29cb63176d5cd30812d79fdffaee2",
+          "file": "frames/player_spaceship/player_spaceship_03.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            384,
+            512,
+            128,
+            128
+          ],
+          "strip_rect": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 4,
+          "source_cell": [
+            0,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            115,
+            122,
+            329,
+            371
+          ],
+          "alpha_bbox": [
+            17,
+            8,
+            112,
+            118
+          ],
+          "sha256_rgba": "0185588ec17839199e27a84cf7cf21d13843a4831425b7799ba40b501ed31812",
+          "file": "frames/player_spaceship/player_spaceship_04.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            512,
+            512,
+            128,
+            128
+          ],
+          "strip_rect": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 5,
+          "source_cell": [
+            444,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            115,
+            124,
+            330,
+            362
+          ],
+          "alpha_bbox": [
+            17,
+            9,
+            112,
+            115
+          ],
+          "sha256_rgba": "c8713d4bc6c98c96072cc6bb897741f341e0af12e13740b8a404148ee9ad825f",
+          "file": "frames/player_spaceship/player_spaceship_05.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            640,
+            512,
+            128,
+            128
+          ],
+          "strip_rect": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 6,
+          "source_cell": [
+            888,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            113,
+            121,
+            332,
+            365
+          ],
+          "alpha_bbox": [
+            16,
+            8,
+            113,
+            115
+          ],
+          "sha256_rgba": "4ac7f2493bda2630c5405079716d0896b5cc73c2a93f2368e425f007e150c0a7",
+          "file": "frames/player_spaceship/player_spaceship_06.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            768,
+            512,
+            128,
+            128
+          ],
+          "strip_rect": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        },
+        {
+          "index": 7,
+          "source_cell": [
+            1332,
+            444,
+            444,
+            444
+          ],
+          "source_alpha_bbox": [
+            112,
+            122,
+            329,
+            363
+          ],
+          "alpha_bbox": [
+            15,
+            8,
+            112,
+            115
+          ],
+          "sha256_rgba": "3f3681bd81639138d9a7ce6202906543b583ef7f3c4138e99c60d3d3f15f4146",
+          "file": "frames/player_spaceship/player_spaceship_07.png",
+          "duration_ms": 100,
+          "sheet_rect": [
+            896,
+            512,
+            128,
+            128
+          ],
+          "strip_rect": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "pivot": [
+            64,
+            64
+          ]
+        }
+      ]
+    }
+  },
+  "qa": {
+    "checks": [
+      "All input atlas cells exact and equal",
+      "Eight nonempty frames per type",
+      "RGBA transparency retained",
+      "No final alpha touches a cell edge",
+      "One common scale and offset per type",
+      "Distinct frame bytes unless exact duplicate pairs explicitly allowed",
+      "Eight frames and matching timing in APNGs and GIFs",
+      "Sheet and strip pixels match standalone frames",
+      "ZIP integrity"
+    ],
+    "sources": {
+      "ufo": {
+        "atlas": "C:\\Users\\termi.UNIT_04\\.codex\\generated_images\\01a14f82-5938-70f0-a04d-775b315384b2\\exec-7d065eb4-37ae-4b5f-b8e7-06e581c85958.png",
+        "atlas_sha256": "01e6135be8a2ae6db644c5d4f28fc408572e9b46263604b1d1d793f6ec0e8ba3",
+        "atlas_size": [
+          1774,
+          887
+        ],
+        "padded_atlas_size": [
+          1776,
+          888
+        ],
+        "alpha_floor": 1,
+        "source_cell_size": [
+          444,
+          444
+        ],
+        "shared_crop": [
+          34,
+          107,
+          409,
+          351
+        ],
+        "resized_crop_size": [
+          65,
+          42
+        ],
+        "scale": 0.17333333333333334,
+        "offset": [
+          31,
+          43
+        ],
+        "source_edge_contact": [],
+        "duplicate_frame_pairs": [],
+        "frames": [
+          {
+            "index": 0,
+            "source_cell": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              37,
+              139,
+              407,
+              339
+            ],
+            "alpha_bbox": [
+              32,
+              49,
+              96,
+              83
+            ],
+            "sha256_rgba": "e8978e63ea6d4b92a12a912def812332fde9a8cba36225af55f2c09a6867ef53",
+            "file": "frames/ufo/ufo_00.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 1,
+            "source_cell": [
+              444,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              37,
+              115,
+              409,
+              308
+            ],
+            "alpha_bbox": [
+              32,
+              44,
+              96,
+              78
+            ],
+            "sha256_rgba": "086be8dc9d0dc7d69cd26513ca7b8eebf29f6973ec1a2107d927973670831713",
+            "file": "frames/ufo/ufo_01.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 2,
+            "source_cell": [
+              888,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              36,
+              135,
+              406,
+              333
+            ],
+            "alpha_bbox": [
+              31,
+              48,
+              95,
+              82
+            ],
+            "sha256_rgba": "3d76d81d9ea71892618bbb3643f17dcd0f5625f9128e17e4531ce76c1b626f80",
+            "file": "frames/ufo/ufo_02.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 3,
+            "source_cell": [
+              1332,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              35,
+              151,
+              407,
+              351
+            ],
+            "alpha_bbox": [
+              32,
+              51,
+              96,
+              85
+            ],
+            "sha256_rgba": "9329445c01aaf8e1a42af4815ceb2339141e8ec19d0016cada6db81b4d1ca896",
+            "file": "frames/ufo/ufo_03.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              384,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              384,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 4,
+            "source_cell": [
+              0,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              37,
+              128,
+              407,
+              327
+            ],
+            "alpha_bbox": [
+              32,
+              47,
+              96,
+              81
+            ],
+            "sha256_rgba": "500386703fbb13b9181d9da2b6c02e4a28602f7f473df8ab84424d84430454b4",
+            "file": "frames/ufo/ufo_04.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              512,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              512,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 5,
+            "source_cell": [
+              444,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              37,
+              107,
+              408,
+              302
+            ],
+            "alpha_bbox": [
+              32,
+              43,
+              96,
+              77
+            ],
+            "sha256_rgba": "6c82f18bd28e9f92d7e80b45da48940ddfb5b3cf0e5be73df65082b833890090",
+            "file": "frames/ufo/ufo_05.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              640,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              640,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 6,
+            "source_cell": [
+              888,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              36,
+              128,
+              406,
+              328
+            ],
+            "alpha_bbox": [
+              31,
+              47,
+              95,
+              81
+            ],
+            "sha256_rgba": "7e7733980a4088d51fd97dfcacc5eb5be86c1ca49afef04fea00e4bd83581b16",
+            "file": "frames/ufo/ufo_06.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              768,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              768,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 7,
+            "source_cell": [
+              1332,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              34,
+              138,
+              407,
+              335
+            ],
+            "alpha_bbox": [
+              31,
+              48,
+              95,
+              82
+            ],
+            "sha256_rgba": "9757ae495ef06e74411920603abe2de8b0b6ad62c11410ea158bd7519938c457",
+            "file": "frames/ufo/ufo_07.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              896,
+              0,
+              128,
+              128
+            ],
+            "strip_rect": [
+              896,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          }
+        ]
+      },
+      "red_enemy": {
+        "atlas": "C:\\Users\\termi.UNIT_04\\.codex\\generated_images\\01a14f82-5938-70f0-a04d-775b315384b2\\exec-e57c1ef0-90e0-48f5-9c42-4acc6f8e2509.png",
+        "atlas_sha256": "d903e17d087271612dce177244d9d74c69ee7aae11f0924208003829f7cec8f6",
+        "atlas_size": [
+          1774,
+          887
+        ],
+        "padded_atlas_size": [
+          1776,
+          888
+        ],
+        "alpha_floor": 1,
+        "source_cell_size": [
+          444,
+          444
+        ],
+        "shared_crop": [
+          29,
+          98,
+          411,
+          363
+        ],
+        "resized_crop_size": [
+          71,
+          49
+        ],
+        "scale": 0.18586387434554974,
+        "offset": [
+          28,
+          39
+        ],
+        "source_edge_contact": [],
+        "duplicate_frame_pairs": [],
+        "frames": [
+          {
+            "index": 0,
+            "source_cell": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              33,
+              106,
+              406,
+              361
+            ],
+            "alpha_bbox": [
+              29,
+              40,
+              98,
+              88
+            ],
+            "sha256_rgba": "56e7e16a79606017ed78dad6baa8018a5fae1931158508d3273a14dc93f0b853",
+            "file": "frames/red_enemy/red_enemy_00.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 1,
+            "source_cell": [
+              444,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              37,
+              104,
+              410,
+              358
+            ],
+            "alpha_bbox": [
+              29,
+              40,
+              99,
+              87
+            ],
+            "sha256_rgba": "200aa96bbe9e60e12c715fa8e01fac7dcb1bed53c9464c29901b436250bfdd1e",
+            "file": "frames/red_enemy/red_enemy_01.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 2,
+            "source_cell": [
+              888,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              29,
+              98,
+              405,
+              358
+            ],
+            "alpha_bbox": [
+              28,
+              39,
+              98,
+              87
+            ],
+            "sha256_rgba": "87d1eb455b5eb3a475aafe1ee93038902d28e681f2f6d93ca31c898bbffe4ce8",
+            "file": "frames/red_enemy/red_enemy_02.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 3,
+            "source_cell": [
+              1332,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              36,
+              99,
+              409,
+              359
+            ],
+            "alpha_bbox": [
+              30,
+              39,
+              99,
+              87
+            ],
+            "sha256_rgba": "21460bbb8a256f789b131f39042a1e16cda88d61fb054205dc7e4fc244af8697",
+            "file": "frames/red_enemy/red_enemy_03.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              384,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              384,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 4,
+            "source_cell": [
+              0,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              33,
+              105,
+              406,
+              363
+            ],
+            "alpha_bbox": [
+              29,
+              40,
+              98,
+              88
+            ],
+            "sha256_rgba": "d39e63c0cc4fb190135de647821662d27cd09f0b4188f02c71c8831037b6952f",
+            "file": "frames/red_enemy/red_enemy_04.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              512,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              512,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 5,
+            "source_cell": [
+              444,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              37,
+              101,
+              411,
+              358
+            ],
+            "alpha_bbox": [
+              29,
+              40,
+              99,
+              87
+            ],
+            "sha256_rgba": "0c604ce0ff2f674ecac6778c78a2cd5c3211b64c413344fb1c082fcd0f236363",
+            "file": "frames/red_enemy/red_enemy_05.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              640,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              640,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 6,
+            "source_cell": [
+              888,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              34,
+              101,
+              405,
+              358
+            ],
+            "alpha_bbox": [
+              29,
+              40,
+              98,
+              87
+            ],
+            "sha256_rgba": "2c055076dc2ee18c7698c01580baa462372f8e48470fc9497d4a05a348a79aa1",
+            "file": "frames/red_enemy/red_enemy_06.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              768,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              768,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 7,
+            "source_cell": [
+              1332,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              36,
+              105,
+              410,
+              362
+            ],
+            "alpha_bbox": [
+              30,
+              40,
+              99,
+              88
+            ],
+            "sha256_rgba": "630ee2d6da1b4a1d382723a63d15415aefd791e96b07b940df9a57ebbdb34ec8",
+            "file": "frames/red_enemy/red_enemy_07.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              896,
+              128,
+              128,
+              128
+            ],
+            "strip_rect": [
+              896,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          }
+        ]
+      },
+      "green_enemy": {
+        "atlas": "C:\\Users\\termi.UNIT_04\\.codex\\generated_images\\01a14f82-5938-70f0-a04d-775b315384b2\\exec-ec0dc1b1-4aa9-4e06-a302-609601ddc4ef.png",
+        "atlas_sha256": "c9a3def219d7a0a3d33043a50e264e8dd9e5d1551f6a19a64a6b7f46458e8f70",
+        "atlas_size": [
+          1774,
+          887
+        ],
+        "padded_atlas_size": [
+          1776,
+          888
+        ],
+        "alpha_floor": 2,
+        "source_cell_size": [
+          444,
+          444
+        ],
+        "shared_crop": [
+          92,
+          99,
+          343,
+          391
+        ],
+        "resized_crop_size": [
+          41,
+          48
+        ],
+        "scale": 0.1643835616438356,
+        "offset": [
+          43,
+          40
+        ],
+        "source_edge_contact": [],
+        "duplicate_frame_pairs": [],
+        "frames": [
+          {
+            "index": 0,
+            "source_cell": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              101,
+              99,
+              342,
+              384
+            ],
+            "alpha_bbox": [
+              44,
+              41,
+              83,
+              87
+            ],
+            "sha256_rgba": "3052e4b08db376446e241ef3470bb59dcc077e8bf223a910175651ee7b787af6",
+            "file": "frames/green_enemy/green_enemy_00.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 1,
+            "source_cell": [
+              444,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              101,
+              101,
+              342,
+              390
+            ],
+            "alpha_bbox": [
+              44,
+              41,
+              84,
+              88
+            ],
+            "sha256_rgba": "3b9a40230ee08a964112a20fa980c3887a1c314203e2e7ce4a2cb8fcc430c5bc",
+            "file": "frames/green_enemy/green_enemy_01.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 2,
+            "source_cell": [
+              888,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              100,
+              100,
+              340,
+              389
+            ],
+            "alpha_bbox": [
+              44,
+              41,
+              84,
+              88
+            ],
+            "sha256_rgba": "b14c5f616bee97e0acf54ac44400bfb9705ebf458a7087a8cac544995e2cf563",
+            "file": "frames/green_enemy/green_enemy_02.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 3,
+            "source_cell": [
+              1332,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              99,
+              101,
+              343,
+              390
+            ],
+            "alpha_bbox": [
+              45,
+              41,
+              84,
+              88
+            ],
+            "sha256_rgba": "bdea7ea6583076247d5e4a28fa488d0f1e4c9ad0a458d91f0c7105bb947b8c03",
+            "file": "frames/green_enemy/green_enemy_03.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              384,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              384,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 4,
+            "source_cell": [
+              0,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              101,
+              101,
+              342,
+              391
+            ],
+            "alpha_bbox": [
+              44,
+              41,
+              84,
+              88
+            ],
+            "sha256_rgba": "42553ba4098f9300c1cba00903392429cda4294851674028202b376ae6946029",
+            "file": "frames/green_enemy/green_enemy_04.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              512,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              512,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 5,
+            "source_cell": [
+              444,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              101,
+              101,
+              341,
+              384
+            ],
+            "alpha_bbox": [
+              44,
+              41,
+              83,
+              86
+            ],
+            "sha256_rgba": "671b4dea1830ae94013aa15d402e214d4fd0ef1740b18a6819deb64d2ed882d4",
+            "file": "frames/green_enemy/green_enemy_05.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              640,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              640,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 6,
+            "source_cell": [
+              888,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              100,
+              101,
+              340,
+              384
+            ],
+            "alpha_bbox": [
+              44,
+              41,
+              84,
+              86
+            ],
+            "sha256_rgba": "d27085ca27f76eccffd1952dbd2be5d75d6ceb9c8c6aa57caf1f6ed9e265e592",
+            "file": "frames/green_enemy/green_enemy_06.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              768,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              768,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 7,
+            "source_cell": [
+              1332,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              92,
+              101,
+              341,
+              383
+            ],
+            "alpha_bbox": [
+              43,
+              41,
+              84,
+              86
+            ],
+            "sha256_rgba": "0b52a0ef88115bfb3609d5d0f72a6c5eb63f32eb3081865ab253ee2e375b220c",
+            "file": "frames/green_enemy/green_enemy_07.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              896,
+              256,
+              128,
+              128
+            ],
+            "strip_rect": [
+              896,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          }
+        ]
+      },
+      "yellow_enemy": {
+        "atlas": "C:\\Users\\termi.UNIT_04\\.codex\\generated_images\\01a14f82-5938-70f0-a04d-775b315384b2\\exec-a29fc7e6-b890-4280-b36e-6cd71f554b4e.png",
+        "atlas_sha256": "cae160c14cb0d2051cef2047728bff3628da164b2b9d9159a0440dac21c36f52",
+        "atlas_size": [
+          1774,
+          887
+        ],
+        "padded_atlas_size": [
+          1776,
+          888
+        ],
+        "alpha_floor": 1,
+        "source_cell_size": [
+          444,
+          444
+        ],
+        "shared_crop": [
+          74,
+          75,
+          369,
+          391
+        ],
+        "resized_crop_size": [
+          63,
+          68
+        ],
+        "scale": 0.21518987341772153,
+        "offset": [
+          32,
+          30
+        ],
+        "source_edge_contact": [],
+        "duplicate_frame_pairs": [],
+        "frames": [
+          {
+            "index": 0,
+            "source_cell": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              116,
+              77,
+              327,
+              387
+            ],
+            "alpha_bbox": [
+              41,
+              30,
+              86,
+              97
+            ],
+            "sha256_rgba": "b7f5fe98d147968bb279108e62eec37c878ba04cf1c6dbf92f4159269cd4c5d9",
+            "file": "frames/yellow_enemy/yellow_enemy_00.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              0,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 1,
+            "source_cell": [
+              444,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              99,
+              77,
+              344,
+              385
+            ],
+            "alpha_bbox": [
+              37,
+              30,
+              90,
+              97
+            ],
+            "sha256_rgba": "02870062f1b217fcb4ac872f94207327eefd86fb923250cb004367253e4fd679",
+            "file": "frames/yellow_enemy/yellow_enemy_01.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              128,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 2,
+            "source_cell": [
+              888,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              74,
+              77,
+              369,
+              387
+            ],
+            "alpha_bbox": [
+              33,
+              30,
+              95,
+              97
+            ],
+            "sha256_rgba": "e6d29136a072960b36c7bb0d21d25353c379a6ab8bf18db04b664cecff26df80",
+            "file": "frames/yellow_enemy/yellow_enemy_02.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              256,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 3,
+            "source_cell": [
+              1332,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              100,
+              77,
+              343,
+              386
+            ],
+            "alpha_bbox": [
+              38,
+              30,
+              89,
+              97
+            ],
+            "sha256_rgba": "bcb31a3dcf8d3252882660a92c58c040e5e27bf497019cb51b72ad7170114807",
+            "file": "frames/yellow_enemy/yellow_enemy_03.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              384,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              384,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 4,
+            "source_cell": [
+              0,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              114,
+              76,
+              327,
+              377
+            ],
+            "alpha_bbox": [
+              41,
+              30,
+              86,
+              95
+            ],
+            "sha256_rgba": "fc29cb08ff68a2e1d73231bd886dc0f937c155c0c0624ca1c16191c685244240",
+            "file": "frames/yellow_enemy/yellow_enemy_04.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              512,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              512,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 5,
+            "source_cell": [
+              444,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              115,
+              75,
+              329,
+              381
+            ],
+            "alpha_bbox": [
+              41,
+              30,
+              86,
+              96
+            ],
+            "sha256_rgba": "a78e595e40e430c921adb58ee4c31ce9f82cc96b386830b7388322dd56a3bdda",
+            "file": "frames/yellow_enemy/yellow_enemy_05.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              640,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              640,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 6,
+            "source_cell": [
+              888,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              113,
+              77,
+              326,
+              379
+            ],
+            "alpha_bbox": [
+              40,
+              30,
+              85,
+              95
+            ],
+            "sha256_rgba": "dc86a3e7495b1ca99e627589b221b8c3061f6306f4b47324bafaa8df78da9c1c",
+            "file": "frames/yellow_enemy/yellow_enemy_06.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              768,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              768,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 7,
+            "source_cell": [
+              1332,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              116,
+              75,
+              328,
+              391
+            ],
+            "alpha_bbox": [
+              42,
+              30,
+              86,
+              98
+            ],
+            "sha256_rgba": "b2ba4154ddc1a063348d7692e57f43fa47904726534ec57748082aad017500e7",
+            "file": "frames/yellow_enemy/yellow_enemy_07.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              896,
+              384,
+              128,
+              128
+            ],
+            "strip_rect": [
+              896,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          }
+        ]
+      },
+      "player_spaceship": {
+        "atlas": "C:\\Users\\termi.UNIT_04\\.codex\\generated_images\\01a14f82-5938-70f0-a04d-775b315384b2\\exec-cd22aa9b-fe1d-4f84-b3cd-9465b648e534.png",
+        "atlas_sha256": "8a36c86e3bc0fe80e3b1c63db302a744cd53f01dbacdd0c8f969d2803d1acecf",
+        "atlas_size": [
+          1774,
+          887
+        ],
+        "padded_atlas_size": [
+          1776,
+          888
+        ],
+        "alpha_floor": 2,
+        "source_cell_size": [
+          444,
+          444
+        ],
+        "shared_crop": [
+          109,
+          121,
+          332,
+          374
+        ],
+        "resized_crop_size": [
+          99,
+          112
+        ],
+        "scale": 0.4426877470355731,
+        "offset": [
+          14,
+          8
+        ],
+        "source_edge_contact": [],
+        "duplicate_frame_pairs": [],
+        "frames": [
+          {
+            "index": 0,
+            "source_cell": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              116,
+              128,
+              327,
+              370
+            ],
+            "alpha_bbox": [
+              17,
+              12,
+              111,
+              118
+            ],
+            "sha256_rgba": "d4bec6a95acb67c96375bd67df3d983e102a3bb5b577b6914e50fc663b058ba9",
+            "file": "frames/player_spaceship/player_spaceship_00.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              0,
+              512,
+              128,
+              128
+            ],
+            "strip_rect": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 1,
+            "source_cell": [
+              444,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              119,
+              130,
+              329,
+              371
+            ],
+            "alpha_bbox": [
+              18,
+              12,
+              112,
+              119
+            ],
+            "sha256_rgba": "fc6e52d6cd98f54600a396ddde6f90577f467983ce171b2abc5cad078a6fad30",
+            "file": "frames/player_spaceship/player_spaceship_01.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              128,
+              512,
+              128,
+              128
+            ],
+            "strip_rect": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 2,
+            "source_cell": [
+              888,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              113,
+              129,
+              327,
+              374
+            ],
+            "alpha_bbox": [
+              16,
+              12,
+              111,
+              120
+            ],
+            "sha256_rgba": "0c4249078e1a970cd99893b0e67c2e0a000fdb4190d5f9e5456a9ee191673a1a",
+            "file": "frames/player_spaceship/player_spaceship_02.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              256,
+              512,
+              128,
+              128
+            ],
+            "strip_rect": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 3,
+            "source_cell": [
+              1332,
+              0,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              109,
+              130,
+              320,
+              371
+            ],
+            "alpha_bbox": [
+              14,
+              12,
+              108,
+              119
+            ],
+            "sha256_rgba": "f5097823a8e99156f92efccf5cfc625000d29cb63176d5cd30812d79fdffaee2",
+            "file": "frames/player_spaceship/player_spaceship_03.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              384,
+              512,
+              128,
+              128
+            ],
+            "strip_rect": [
+              384,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 4,
+            "source_cell": [
+              0,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              115,
+              122,
+              329,
+              371
+            ],
+            "alpha_bbox": [
+              17,
+              8,
+              112,
+              118
+            ],
+            "sha256_rgba": "0185588ec17839199e27a84cf7cf21d13843a4831425b7799ba40b501ed31812",
+            "file": "frames/player_spaceship/player_spaceship_04.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              512,
+              512,
+              128,
+              128
+            ],
+            "strip_rect": [
+              512,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 5,
+            "source_cell": [
+              444,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              115,
+              124,
+              330,
+              362
+            ],
+            "alpha_bbox": [
+              17,
+              9,
+              112,
+              115
+            ],
+            "sha256_rgba": "c8713d4bc6c98c96072cc6bb897741f341e0af12e13740b8a404148ee9ad825f",
+            "file": "frames/player_spaceship/player_spaceship_05.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              640,
+              512,
+              128,
+              128
+            ],
+            "strip_rect": [
+              640,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 6,
+            "source_cell": [
+              888,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              113,
+              121,
+              332,
+              365
+            ],
+            "alpha_bbox": [
+              16,
+              8,
+              113,
+              115
+            ],
+            "sha256_rgba": "4ac7f2493bda2630c5405079716d0896b5cc73c2a93f2368e425f007e150c0a7",
+            "file": "frames/player_spaceship/player_spaceship_06.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              768,
+              512,
+              128,
+              128
+            ],
+            "strip_rect": [
+              768,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          },
+          {
+            "index": 7,
+            "source_cell": [
+              1332,
+              444,
+              444,
+              444
+            ],
+            "source_alpha_bbox": [
+              112,
+              122,
+              329,
+              363
+            ],
+            "alpha_bbox": [
+              15,
+              8,
+              112,
+              115
+            ],
+            "sha256_rgba": "3f3681bd81639138d9a7ce6202906543b583ef7f3c4138e99c60d3d3f15f4146",
+            "file": "frames/player_spaceship/player_spaceship_07.png",
+            "duration_ms": 100,
+            "sheet_rect": [
+              896,
+              512,
+              128,
+              128
+            ],
+            "strip_rect": [
+              896,
+              0,
+              128,
+              128
+            ],
+            "pivot": [
+              64,
+              64
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

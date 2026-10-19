@@ -1,0 +1,24 @@
+ENEMY DEATH EFFECTS — GENERATION PROMPTS
+
+Created with the built-in image_gen tool. Each effect uses the corresponding extracted native sprite as its image reference. These are newly created death effects based on the single-frame source, not animation recovered from it.
+
+SHARED PROMPT
+Use case: precise-object-edit. Asset type: a 2D pixel-art ENEMY DEATH animation atlas for a small arcade space shooter. Input image1 is the design reference/edit target. Preserve the original character colors, silhouette, white eyes/windows, and thin blue-gray outlines at the beginning; then destroy it into a small stylized non-graphic arcade explosion. Genuinely transparent RGBA background. No blood or organic injury.
+Layout: EXACTLY4columns by2rows of equal square cells, row-major; eight sequential frames, same central anchor and same pixel scale. Leave wide transparent margins around ALL particles and flames. Only the central60percent of each cell may contain art. No text, labels, gridlines, checkerboard, scenery, stars, floor, cast shadow or watermark.
+Animation stages in the eight cells: top-left=1 brief white/yellow hit flash over recognizable enemy; topsecond=2 enemy starting to split into a few colored geometric pieces with a small yellow center burst; topthird=3 bright compact yellow-white explosion core with orange pixel flames and colored enemy fragments; topfourth=4 explosion expanding to its largest size with scattered red/orange square sparks and colored fragments; bottomleft=5 smaller orange dying burst and a few dark blue-gray smoke pixels; bottomsecond=6 sparse fading smoke and four or five colored sparks; bottomthird=7 only two tiny faint orange sparks near the same center; bottomright=8 COMPLETELY EMPTY AND TRANSPARENT, absolutely no artwork or particles. The last cell is an intentional blank terminal frame. The first7frames have art.
+Style: crisp low-resolution pixel clusters, small fixed palette, hard angular pixel shapes and clean transparency. No smooth gradients, glow clouds, blur, lens effects, realistic fire, or over-detailed debris. One short coherent death effect that expands then disappears. No whole enemy reappears after it breaks up.
+
+UFO
+Subject: the attached red UFO with four white windows and three yellow underside lights. Use red hull fragments, a few yellow light pieces and white window chips around the yellow-orange explosion. The level saucer starts upright without spinning. At largest expansion the effect is about1.5times the original saucer width.
+
+RED_ENEMY
+Subject: the attached red crab-like space enemy with two white eyes, two antennae and curved red arms/pincers. Its early silhouette stays recognizable; later fragments are red with tiny white eye chips and dark outline pieces around a yellow-orange explosion. At largest expansion the effect is about1.5times original enemywidth.
+
+GREEN_ENEMY
+Subject: the attached green dome enemy with two white eyes, a yellow mouth/rim and two curved green tentacles. Its early silhouette stays recognizable; breakup pieces are green with small yellow rim fragments and white eye chips. The main death explosion is the same arcade yellow-white/orange palette as the other enemies. At largest expansion about1.8times original green enemywidth.
+
+YELLOW_ENEMY
+Subject: the attached tapered yellow enemy with a white cap, two round white eyes and two white curved pincers. Its early silhouette stays recognizable; breakup uses yellow head fragments and small white curved arm pieces, with dark blue-gray outline bits. A yellow-white/orange arcade explosion expands then fades. At largest expansion about1.7times original enemywidth.
+
+The generated full-detail atlases are retained unchanged in generated_atlases/. Packaging uses a single nearest-neighbor scale and fixed anchor per effect, removes only negligible alpha speckles, and exports a completely transparent final frame. See death_effects.json for timing and normalization details.
+

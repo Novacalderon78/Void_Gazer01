@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "image": "sprite_sheet.png",
+    "size": {
+      "w": 640,
+      "h": 128
+    },
+    "cell_size": {
+      "w": 128,
+      "h": 128
+    },
+    "order": [
+      "ufo",
+      "red_enemy",
+      "green_enemy",
+      "yellow_enemy",
+      "player_spaceship"
+    ],
+    "scale": 1,
+    "format": "RGBA8888",
+    "source": {
+      "filename": "original-088f69f7df95a8bc4569117655d09492.gif",
+      "size": {
+        "w": 800,
+        "h": 600
+      },
+      "frames": 1,
+      "sha256": "9b6441ce06774fb4d1480ed113b99dab95a7ec5e25728b290ea5d63625c3b62f"
+    },
+    "processing": "Native-resolution source-pixel extraction; exterior backdrop, stars, and near-background edge noise removed. Retained opaque foreground RGB values are unchanged. No resampling."
+  },
+  "sprites": {
+    "ufo": {
+      "file": "sprites/ufo.png",
+      "size": {
+        "w": 65,
+        "h": 33
+      },
+      "frame": {
+        "x": 31,
+        "y": 47,
+        "w": 65,
+        "h": 33
+      },
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "source_bounds": {
+        "x": 431,
+        "y": 52,
+        "w": 65,
+        "h": 33
+      }
+    },
+    "red_enemy": {
+      "file": "sprites/red_enemy.png",
+      "size": {
+        "w": 71,
+        "h": 48
+      },
+      "frame": {
+        "x": 156,
+        "y": 40,
+        "w": 71,
+        "h": 48
+      },
+      "cell": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "source_bounds": {
+        "x": 160,
+        "y": 106,
+        "w": 71,
+        "h": 48
+      }
+    },
+    "green_enemy": {
+      "file": "sprites/green_enemy.png",
+      "size": {
+        "w": 40,
+        "h": 47
+      },
+      "frame": {
+        "x": 300,
+        "y": 40,
+        "w": 40,
+        "h": 47
+      },
+      "cell": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "source_bounds": {
+        "x": 382,
+        "y": 189,
+        "w": 40,
+        "h": 47
+      }
+    },
+    "yellow_enemy": {
+      "file": "sprites/yellow_enemy.png",
+      "size": {
+        "w": 43,
+        "h": 66
+      },
+      "frame": {
+        "x": 426,
+        "y": 31,
+        "w": 43,
+        "h": 66
+      },
+      "cell": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "source_bounds": {
+        "x": 380,
+        "y": 269,
+        "w": 43,
+        "h": 66
+      }
+    },
+    "player_spaceship": {
+      "file": "sprites/player_spaceship.png",
+      "size": {
+        "w": 96,
+        "h": 112
+      },
+      "frame": {
+        "x": 528,
+        "y": 8,
+        "w": 96,
+        "h": 112
+      },
+      "cell": {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "source_bounds": {
+        "x": 352,
+        "y": 436,
+        "w": 96,
+        "h": 112
+      }
+    }
+  }
+}
