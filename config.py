@@ -3,8 +3,8 @@
 from pathlib import Path
 
 TITLE = "Void Gazer"
-WIDTH = 1280
-HEIGHT = 800
+WIDTH = 1920
+HEIGHT = 1080
 FPS = 60
 
 BACKGROUND_COLOR = (5, 9, 19)
