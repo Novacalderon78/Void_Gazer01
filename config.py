@@ -42,7 +42,7 @@ MAX_EXPLOSIONS = 24
 
 # Defeat the final boss at 10,000 points to finish the game.
 BOSS_SCORE_TARGET = 10000
-BOSS_HEALTH = 320
+BOSS_HEALTH = 150
 BOSS_SCORE = 5000
 BOSS_BULLET_LIMIT = 240
 # The beam extends further if the player flies beyond this distance.
